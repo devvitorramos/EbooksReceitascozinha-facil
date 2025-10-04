@@ -1,0 +1,25 @@
+{
+  "_note": "Copie estes scripts para o seu package.json",
+  "scripts": {
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "build:web": "node scripts/build-web.js",
+    "build:desktop:win": "node scripts/build-desktop-win.js",
+    "build:desktop:mac": "node scripts/build-desktop-mac.js", 
+    "build:desktop:linux": "node scripts/build-desktop-linux.js",
+    "build:all": "node scripts/build-all.js"
+  },
+  "instructions": [
+    "1. Copie os scripts acima para a seção 'scripts' do seu package.json",
+    "2. Instale Rust: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+    "3. Execute: npm install",
+    "4. Para desenvolvimento: npm run tauri:dev",
+    "5. Para build web: npm run build:web", 
+    "6. Para build desktop Windows: npm run build:desktop:win",
+    "7. Para build desktop macOS: npm run build:desktop:mac",
+    "8. Para build desktop Linux: npm run build:desktop:linux",
+    "9. Para build completo: npm run build:all",
+    "10. Consulte GUIA-COMPLETO.md para mais detalhes"
+  ]
+}
